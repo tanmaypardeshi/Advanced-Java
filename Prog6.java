@@ -1,4 +1,4 @@
-//an eg. of update query - This query is used to modify the contents of 1 or more records
+// An eg. of update query - This query is used to modify the contents of 1 or more records
 // WAP which modifies the name of a city for eg. by mistake city name is typed as "Pune" instead of "Poona"
 
 import javax.swing.tree.ExpandVetoException;

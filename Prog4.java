@@ -1,4 +1,4 @@
-// accept the city name from user and delete all records for that city. At the end, display no, of records deleted
+// Accept the city name from user and delete all records for that city. At the end, display no, of records deleted
 
 import java.sql.*;
 import java.util.Scanner;

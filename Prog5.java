@@ -1,4 +1,4 @@
-//accept a record of employee from user and store it int the table "empinfo"
+// Accept a record of employee from user and store it int the table "empinfo"
 
 import java.sql.*;
 import java.util.Scanner;

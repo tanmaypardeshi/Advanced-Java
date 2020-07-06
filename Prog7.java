@@ -1,4 +1,4 @@
-// display the record of an employee whose empid is accepted from user as cmd args. Use PreparedStatement object
+// Display the record of an employee whose empid is accepted from user as cmd args. Use PreparedStatement object
 
 import java.sql.*;
 

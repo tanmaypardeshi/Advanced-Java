@@ -1,4 +1,4 @@
-//To desgin a GUI using AWT for a login screen
+// To design a GUI using AWT for a login screen
 
 import java.sql.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-// a java program to connect to a backend database and display the records from 1 of its tables
+// A java program to connect to a backend database and display the records from 1 of its tables
 
 import java.sql.*;
 
