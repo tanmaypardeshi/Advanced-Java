@@ -1,4 +1,4 @@
-/* Accept empid from user as cmd args and display his/her records */
+// Accept empid from user as cmd args and display his/her records
 import  java.sql.*;
 
 public class Prog2

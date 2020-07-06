@@ -1,4 +1,4 @@
-/* Accept a city name from user as cmd args and display records of that city */
+// Accept a city name from user as cmd args and display records of that city
 
 import java.sql.*;
 
