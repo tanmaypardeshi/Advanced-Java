@@ -11,8 +11,8 @@ class Prog1
         try
         {
             //establish a connection with the backend database using DSN
-            String databaseURL = "jdbc:ucanaccess://d://Code//Advanced-Java//empinfo.accdb";
-            Connection conn = DriverManager.getConnection(databaseURL);    //info is the name of DSN
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+	    Connection conn = DriverManager.getConnection("jdbc:odbc:info");    //info is the name of DSN
 
             //create a statement object which will be used for storing queries
             Statement stmt = conn.createStatement();    //createStatement() is an instance method as the conn object
@@ -52,6 +52,7 @@ Class.forName("sun.jdbc.odbc.JdbcOdbcDriver") -> class keyword to define a class
 containing a static method "forName()" which accepts the name of the java side driver as its parameter. Here we are
 using jdbc-odbc bridge driver(Type 1) which itself is a java class and resides in the package "sun.jdbc.odbc"
 */
+
 /*
 Connection conn = DriverManager.getConnection("jdbc:odbc:info") -> Here we are obtaining a reference to a connection
 object. This reference is obtained by executing the static method "getConnection()" of the "DriverManager" class.
