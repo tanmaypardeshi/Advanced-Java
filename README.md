@@ -21,3 +21,7 @@
 |[Prog8.java](Prog8.java)  |PreparedStatement example 2 : Insert Query|
 |[Prog9.java](Prog9.java)  |GUI Login App using Frames and using MS Access DB|
 |[Prog10.java](Prog10.java)  |GUI App using Swing for DBMS|
+|[Prog11.java](Prog11.java)  |Example of DataBaseMetaData object|
+|[Prog12.java](Prog12.java)  |Example of ResultSetMetaData object|
+|[Prog13.java](Prog13.java)  |Fetch data from MySQL server|
+
