@@ -12,7 +12,7 @@ class Prog14
             String cname = args[1];
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "java1234!");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "your_password");
             CallableStatement cstmt = conn.prepareCall("{ call chgdata(?,?)}");
 
             //set values for IN parameters
@@ -29,7 +29,7 @@ class Prog14
                 System.out.println("Record not updated because custid not found");
             }
             else
-            {
+            {             
                 System.out.println("Record updated successfully");
             }
             cstmt.close();
