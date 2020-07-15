@@ -44,6 +44,10 @@ class Prog1
         {
             System.out.println(e.getMessage());
         }
+        catch (ClassNotFoundException e)
+        {
+            System.out.println(e.getMessage());
+        }
     }
 }
 

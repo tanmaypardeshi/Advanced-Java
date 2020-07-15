@@ -14,7 +14,6 @@ class Prog13
         try
         {
             // only first 2 lines will change, rest of code is same as that for ms-access
-            Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "your_password");
             // localhost is tha name of the server on which mysql is installed and is prividing service through a "port"
             // with unique number 3306(By default, can be a different one while you install mysql). There are
