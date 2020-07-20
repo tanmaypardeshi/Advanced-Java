@@ -2,3 +2,5 @@
 .idea
 Advanced-Java.iml
 out
+jdbc/*.class
+servlets/*.class
