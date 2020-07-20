@@ -11,7 +11,7 @@ import java.util.GregorianCalendar;
 // all servlet classes should be declared public as they are executed by some external programs like Tomcat(Web Server/
 // Container)
 
-public class Prog1 extends GenericServletException
+public class Prog1 extends GenericServlet
 {
 	// Override the service() and specify the action to be taken on user's request
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException
