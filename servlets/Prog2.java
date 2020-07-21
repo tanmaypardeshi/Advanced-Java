@@ -20,7 +20,7 @@ public class Prog2 extends HttpServlet
 
 		String colourname = req.getParameter("colour");
 
-		pw.println("<h2><font color '" + colourname + "'> It seems your favourite colour is " + colourname + "</font></h2>");
+		pw.println("<h2><font color ='" + colourname + "'> It seems your favourite colour is " + colourname + "</font></h2>");
 		pw.println("</body></html>");
 		pw.close();
 	}
