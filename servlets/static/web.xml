@@ -1,0 +1,22 @@
+<web-app>
+    <servlet>
+        <servlet-name>A</servlet-name>
+        <servlet-class>Prog1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>A</servlet-name>
+        <url-pattern>/p1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>B</servlet-name>
+        <servlet-class>Prog2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>B</servlet-name>
+        <url-pattern>/p2</url-pattern>
+    </servlet-mapping>
+
+</web-app>

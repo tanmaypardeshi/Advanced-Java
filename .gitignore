@@ -1,6 +1,7 @@
-*.class
 .idea
 Advanced-Java.iml
 out
+lib
+*.class
 jdbc/*.class
 servlets/*.class
