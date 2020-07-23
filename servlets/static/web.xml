@@ -18,5 +18,13 @@
         <servlet-name>B</servlet-name>
         <url-pattern>/p2</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>C</servlet-name>
+        <servlet-class>Prog3</servlet-class>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>C</servlet-name>
+        <url-pattern>/p3</url-pattern>
+    </servlet-mapping>
 </web-app>
