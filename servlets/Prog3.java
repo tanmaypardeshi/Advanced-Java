@@ -1,6 +1,7 @@
 // am example of a servlet which is kept in a sub folder "tanmay" of "classes" and this servlet will process
 // the multiple values sent via a html form
 
+package tanmay;
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
