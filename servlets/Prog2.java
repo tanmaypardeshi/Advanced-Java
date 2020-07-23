@@ -9,8 +9,7 @@ public class Prog2 extends HttpServlet
 	// because html form accepting data from user contains values "post" in attribute "method", use doPost() method
 	// of HttpServlet which informally calls the service method
 
-	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException
-	{
+	public void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		res.setContentType("text/html");
 		PrintWriter pw = res.getWriter();
 
