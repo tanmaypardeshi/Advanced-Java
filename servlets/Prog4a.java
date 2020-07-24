@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 
 public class Prog4a extends HttpServlet
 {
-	public void doPost(HttpServletResponse res, HttpServletRequest req) throws IOException, ServletException
+	public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException
 	{
 		res.setContentType("text/html");
 		PrintWriter pw = res.getWriter();
