@@ -43,7 +43,7 @@ public class Prog4a extends HttpServlet
 		pw.println("<input type='checkbox' name='items' value='100'>Compass box @ Rs. 100/- </p>");
 		pw.println("<input type='checkbox' name='items' value='150'>Colour box @ Rs. 150/- </p>");
 		pw.println("<input type='submit' value='Next>>'><p>");
-
+		pw.println("<h2> Session id is :- " + s.getId() + "</h2>");
 		pw.println("</form></body></html>");
 		pw.close();
 	}

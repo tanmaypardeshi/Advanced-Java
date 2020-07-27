@@ -36,4 +36,13 @@
         <servlet-name>D</servlet-name>
         <url-pattern>/p4a</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>E</servlet-name>
+        <servlet-class>Prog4b</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>E</servlet-name>
+        <url-pattern>/p4b</url-pattern>
+    </servlet-mapping>
 </web-app>
