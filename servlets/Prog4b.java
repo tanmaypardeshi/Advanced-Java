@@ -33,13 +33,13 @@ public class Prog4b extends HttpServlet
 
 		//return type of getAttribute() is is Object
 
-		int sum_prev = Integer.parseInt(s.getAttribute("page1_ttl").toString());
+		int sum_prev = Integer.parseInt(s.getAttribute("page_ttl").toString());
 
 		//display totals
 
 		pw.println("<h2> Page 1 total is Rs. " + sum_prev + "<p>");
 		pw.println("Page 2 total is Rs. " + sum + "<p>");
-		pw.println("Grand total is Rs. " + sum + sum_prev + "<p>");
+		pw.println("Grand total is Rs. " + (sum + sum_prev) + "<p>");
 		pw.println("Session id is:- " + s.getId() + "</h2>");
 		pw.println("</body></html");
 		pw.close();
