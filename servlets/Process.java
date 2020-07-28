@@ -16,7 +16,7 @@ public class Process extends HttpServlet
 
 		try
 		{
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "java1234!");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "your_password!");
 
 			String sql = "select * from accounts where username=? and password=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
