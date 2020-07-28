@@ -45,4 +45,44 @@
         <servlet-name>E</servlet-name>
         <url-pattern>/p4b</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>F</servlet-name>
+        <servlet-class>Process</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>F</servlet-name>
+        <url-pattern>/p5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>G</servlet-name>
+        <servlet-class>Welcome</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>G</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>H</servlet-name>
+        <servlet-class>Balance</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>H</servlet-name>
+        <url-pattern>/bb</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>I</servlet-name>
+        <servlet-class>Logout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>I</servlet-name>
+        <url-pattern>/lo</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
