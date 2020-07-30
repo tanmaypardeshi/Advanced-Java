@@ -3,7 +3,6 @@
         <servlet-name>A</servlet-name>
         <servlet-class>Prog1</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>A</servlet-name>
         <url-pattern>/p1</url-pattern>
@@ -13,43 +12,42 @@
         <servlet-name>B</servlet-name>
         <servlet-class>Prog2</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>B</servlet-name>
         <url-pattern>/p2</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>C</servlet-name>
         <servlet-class>tanmay.Prog3</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>C</servlet-name>
         <url-pattern>/p3</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>D</servlet-name>
         <servlet-class>Prog4a</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>D</servlet-name>
         <url-pattern>/p4a</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>E</servlet-name>
         <servlet-class>Prog4b</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>E</servlet-name>
         <url-pattern>/p4b</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>F</servlet-name>
         <servlet-class>Process</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>F</servlet-name>
         <url-pattern>/p5</url-pattern>
@@ -59,16 +57,15 @@
         <servlet-name>G</servlet-name>
         <servlet-class>Welcome</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>G</servlet-name>
         <url-pattern>/welcome</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>H</servlet-name>
         <servlet-class>Balance</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>H</servlet-name>
         <url-pattern>/bb</url-pattern>
@@ -78,10 +75,27 @@
         <servlet-name>I</servlet-name>
         <servlet-class>Logout</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>I</servlet-name>
         <url-pattern>/lo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>J</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>J</servlet-name>
+        <url-pattern>/li</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>K</servlet-name>
+        <servlet-class>Prog6</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>K</servlet-name>
+        <url-pattern>/p6</url-pattern>
     </servlet-mapping>
 
 
