@@ -16,7 +16,7 @@ public class Process extends HttpServlet
 
 		try
 		{
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "your_password");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "java1234!");
 
 			String sql = "select * from accounts where username=? and password=?";
 			PreparedStatement ps = conn.prepareStatement(sql);
@@ -50,6 +50,9 @@ public class Process extends HttpServlet
 		}
 		catch (Exception e)
 		{
+			PrintWriter pw = resp.getWriter();
+			pw.println("<html><body><h2>" + e.getMessage() + "</h2></body></html>");
+			pw.close();
 			System.out.println(e.getMessage());
 		}
 	}

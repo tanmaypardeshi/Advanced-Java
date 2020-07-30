@@ -3,5 +3,8 @@ Advanced-Java.iml
 out
 lib
 *.class
+*.jar
 jdbc/*.class
 servlets/*.class
+jsp/*.class
+
