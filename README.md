@@ -5,6 +5,7 @@
 * **JDBC and drivers for database connectivity**
 * **Making  GUI and Web apps with database**
 * **Servlets**
+* **JSP - Java server pages**
 
 <hr>
 
@@ -14,3 +15,4 @@
 | :-----------------------------:  | :--------------------------------    |
 |[jdbc](jdbc/)|Java Database Connectivity|
 |[servlets](servlets/)|Servlets|
+|[jsp](jsp/)|JSP  - Java Server Pages|
