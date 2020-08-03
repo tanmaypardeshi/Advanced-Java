@@ -8,3 +8,5 @@
 |[Prog2.jsp](Prog2.jsp)  |Scriplet and expression|
 |[Prog3.jsp](Prog3.jsp)  |Declaration|
 |[Prog4.jsp](Prog4.jsp)  |Declaration use example|
+|[Prog5.jsp](Prog5.jsp)  |Input form from user|
+|[Prog6.jsp](Prog6.jsp)  |Register new users into db|

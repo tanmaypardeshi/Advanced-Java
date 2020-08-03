@@ -48,7 +48,7 @@
 		
 		ps.executeUpdate();	
 		
-		out.println("<h2>Username + " + un + " has been successfully registered</h2>");
+		out.println("<h2>Username " + un + " has been successfully registered</h2>");
 	}
 	rs.close();
 	ps.close();
