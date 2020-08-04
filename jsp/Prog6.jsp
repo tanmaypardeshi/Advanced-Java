@@ -9,7 +9,8 @@
 <% 
 	String un = request.getParameter("username");
 	
-	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "your_password");
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/info", "root", "java1234!");
 	
 	// 1st check whether the request username is available or not. If available,
 	// go ahead to register him as user, otherwise reject and given him appropritate message
@@ -48,7 +49,7 @@
 		
 		ps.executeUpdate();	
 		
-		out.println("<h2>Username " + un + " has been successfully registered</h2>");
+		out.println("<h2>Username + " + un + " has been successfully registered</h2>");
 	}
 	rs.close();
 	ps.close();
