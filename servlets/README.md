@@ -4,6 +4,7 @@
 
 | Program Name                     | Description                          |
 | :-----------------------------:  | :--------------------------------    |
+|[static](static/)|All static pages for servlets|
 |[Prog1.java](Prog1.java)  |Dynamic page using Gregorian calendar|
 |[Prog2.java](Prog2.java)  |Post request on a dynamic page|
 |[Prog3.java](Prog3.java)  |Multiple values sent over a servlet and using packages|
