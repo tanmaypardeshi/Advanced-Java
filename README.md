@@ -6,6 +6,7 @@
 * **Making  GUI and Web apps with database**
 * **Servlets**
 * **JSP - Java server pages**
+* **Java Beans**
 
 <hr>
 
@@ -16,3 +17,4 @@
 |[jdbc](jdbc/)|Java Database Connectivity|
 |[servlets](servlets/)|Servlets|
 |[jsp](jsp/)|JSP  - Java Server Pages|
+|[beans](beans/)|Java Beans|

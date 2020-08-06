@@ -7,4 +7,5 @@ lib
 jdbc/*.class
 servlets/*.class
 jsp/*.class
+beans/*.class
 
