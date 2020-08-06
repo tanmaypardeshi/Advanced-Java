@@ -1,20 +1,19 @@
 <%@ page language="java" import="java.util.Enumeration" %>
 
-[<a href="Movies.jsp">Shop for movies</a>]<p>
+[<a href="Toys1.jsp">Shop for toys</a>]<p>
 
 <table cellspacing=20>
 
 <%
-	String titles[] = {"Lego", "RC car", "Dolls"};
+	String titles[] = {"Jurassic Park", "Iron Man 3", "Madgascar"};
 	
-	for(int i = 0; i < titles.length ; i++)
+	for(int i = 0; i < titles.length; i++)
 	{
 %>
 
 <tr>
 <td><%= titles[i] %>
-<td><a href="Toys.jsp?aitems=<%= titles[i] %>">Add to cart </a>
-<td><a href="Toys.jsp?ritems=<%= titles[i] %>">Remove from cart </a>
+<td><a href="Movies1.jsp?aitems=<%= titles[i] %>">Add to cart </a>
 </tr>
 
 <%
@@ -54,6 +53,10 @@
 	// as attribute names and its values is same, as can simple display attribute names
 	
 	while(e.hasMoreElements())	//boolean
-		out.println("<li> " + e.nextElement());
+	{
+		Object obj = e.nextElement();
+		out.println("<li> " + obj);
+		out.println("<a href='Toys1.jsp?ritems=" +   obj   + "'> Remove from cart</a>");		
+	}
 	// nextElement() returns attributes names
 %>

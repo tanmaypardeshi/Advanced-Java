@@ -22,4 +22,7 @@
 |[Prog9b.jsp]|(Prog9b.jsp)|JSP action tag part 2|
 |[Toys.jsp]|(Toys.jsp)|JSP action tag shopping cart|
 |[Movies.jsp]|(Movies.jsp)|JSP action tag shopping cart|	
+|[Toys1.jsp]|(Toys1.jsp)|JSP action tag shopping cart(Improved design)|
+|[Movies1.jsp]|(Movies1.jsp)|JSP action tag shopping cart(Improved desgin)|	
+
 
