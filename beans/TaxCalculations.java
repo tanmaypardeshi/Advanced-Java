@@ -4,8 +4,9 @@ import java.io.Serializable;
 
 public class TaxCalculations implements Serializable
 {
-    private int total;  //initial billamt w/o taxes
+    private int total, paid;  //initial billamt w/o taxes
     private double taxrate;
+
 
     public TaxCalculations(){}
 
@@ -29,6 +30,16 @@ public class TaxCalculations implements Serializable
     {
         return taxrate;
     }
+	
+	public void setPaid(String paid)
+	{
+		this.paid = Integer.parseInt(paid);
+	}
+	
+	public int getPaid()
+	{
+		return paid;
+	}
 
     // additional methods to perform backend calculations for calculatin tax amount and net payable amount
 
@@ -38,7 +49,19 @@ public class TaxCalculations implements Serializable
     }
     public double getNetPayable()
     {
-        return total + getTaxAmt();
+        return Math.round(total + getTaxAmt());
     }
+		
+	public double getChange()
+	{
+		return (double)paid - getNetPayable();
+	}
+	
+	public boolean getValidation()
+	{
+		if ((double)paid > getNetPayable())
+			return true;
+		return false;
+	}
 }
 
