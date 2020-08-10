@@ -6,6 +6,8 @@ lib
 *.jar
 jdbc/*.class
 servlets/*.class
+servlets/Notes/
 jsp/*.class
 beans/*.class
+
 
