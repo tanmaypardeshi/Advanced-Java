@@ -16,3 +16,6 @@
 |[UserData.java](UserData.java)|UserData.java for Prog12.jsp|
 |[Prog12a.jsp](Prog12a.jsp)|JSP to input data and store in bean|
 |[Prog12b.jsp](Prog12b.jsp)|JSP to display data and store in bean|
+|[Frame1.java](Frame1.java)|Frame 1 for executable desktop app|
+|[Frame2.java](Frame2.java)|Frame 2 for executable desktop app|
+|[Frames.mf](Frames.mf)|Manifest file for application|
