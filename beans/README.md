@@ -13,5 +13,6 @@
 |[Message.java](Message.java)|Message bean using setter method|
 |[Prog11a.jsp](Prog11a.jsp)|JSP to set message of Message bean|
 |[Prog11b.jsp](Prog11b.jsp)|JSP to display message of Message bean|
+|[UserData.java](UserData.java)|UserData.java for Prog12.jsp|
 |[Prog12a.jsp](Prog12a.jsp)|JSP to input data and store in bean|
 |[Prog12b.jsp](Prog12b.jsp)|JSP to display data and store in bean|
