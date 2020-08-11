@@ -7,6 +7,7 @@
 * **Servlets**
 * **JSP - Java server pages**
 * **Java Beans**
+* **Java Collections Framework**
 
 <hr>
 
@@ -18,3 +19,4 @@
 |[servlets](servlets/)|Servlets|
 |[jsp](jsp/)|JSP  - Java Server Pages|
 |[beans](beans/)|Java Beans|
+|[collections](collections/)|Java Collections Framework|
