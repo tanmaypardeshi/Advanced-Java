@@ -8,6 +8,7 @@ jdbc/*.class
 servlets/*.class
 jsp/*.class
 beans/*.class
+!beans/App.jar
 collections/*.class
 Notes/
 
