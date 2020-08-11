@@ -1,1 +1,2 @@
-main-class:Frame1
+main-class: Frame1
+
