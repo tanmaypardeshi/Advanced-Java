@@ -15,5 +15,7 @@
 |[Prog9.java](Prog9.java)  |Example of HashSet|
 |[Prog10.java](Prog10.java)  |Example of LinkedHashSet|
 |[Prog11.java](Prog11.java)  |Example of TreeSet|
+|[Prog12.java](Prog12.java)  |Example of TreeMap|
+|[Prog13.java](Prog13.java)  |Example of Stack|
 
 
