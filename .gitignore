@@ -10,6 +10,7 @@ jsp/*.class
 beans/*.class
 !beans/App.jar
 collections/*.class
+multithreading/*.class
 Notes/
 
 
