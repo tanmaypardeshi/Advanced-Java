@@ -8,6 +8,7 @@
 * **JSP - Java server pages**
 * **Java Beans**
 * **Java Collections Framework**
+* **Multitasking and Multithreading**
 
 <hr>
 
@@ -20,3 +21,4 @@
 |[jsp](jsp/)|JSP  - Java Server Pages|
 |[beans](beans/)|Java Beans|
 |[collections](collections/)|Java Collections Framework|
+|[multithreading](multithreading/)|Multitasking and Multithreading|
