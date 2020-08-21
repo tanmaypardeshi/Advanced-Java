@@ -14,6 +14,7 @@ class A extends Thread
 			if(i == 10)
 				Thread.yield();
 		}
+		System.out.println("End of thread A");
 	}
 }
 
