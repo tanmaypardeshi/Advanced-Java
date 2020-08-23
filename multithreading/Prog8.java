@@ -42,9 +42,7 @@ public class Prog8 extends Applet implements Runnable
             repaint();
         }
     }
-    // when we minimise the browser window OR move to another tab, the stop() of Applet life cycle is called automatically.
-    // Here, if anmation is not required and can be stopped. However if not made part of the program, will affect other processes.
-
+    
     public void stop()
     {
         stopFlag = true;
