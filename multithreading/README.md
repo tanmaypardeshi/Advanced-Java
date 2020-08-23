@@ -11,3 +11,5 @@
 |[Prog5.java](Prog5.java)  |Demonstration of Life Cycle of Thread|
 |[Prog6.java](Prog6.java)  |Frame to display dynamic clock|
 |[Prog7.java](Prog7.java)  |Applet to make animation|
+|[Prog8.java](Prog8.java)  |Applet to make animation in reverse order|
+|[Prog9.java](Prog9.java)  |Applet to make bouncing ball animation|
