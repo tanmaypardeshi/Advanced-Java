@@ -13,3 +13,6 @@
 |[Prog7.java](Prog7.java)  |Applet to make animation|
 |[Prog8.java](Prog8.java)  |Applet to make animation in reverse order|
 |[Prog9.java](Prog9.java)  |Applet to make bouncing ball animation|
+|[Prog10.java](Prog10.java)  |Synchronised thread class|
+|[Prog11.java](Prog11.java)  |Synchronised thread object|
+|[Prog12.java](Prog12.java)  |wait() and notify()|
