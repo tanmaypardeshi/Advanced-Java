@@ -9,6 +9,7 @@
 * **Java Beans**
 * **Java Collections Framework**
 * **Multitasking and Multithreading**
+* **Networking in Java**
 
 <hr>
 
@@ -22,3 +23,4 @@
 |[beans](beans/)|Java Beans|
 |[collections](collections/)|Java Collections Framework|
 |[multithreading](multithreading/)|Multitasking and Multithreading|
+|[networking](networking/)|Networking|

@@ -11,6 +11,7 @@ beans/*.class
 !beans/App.jar
 collections/*.class
 multithreading/*.class
+networking/*.class
 Notes/
 
 
