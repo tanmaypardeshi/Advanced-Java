@@ -23,4 +23,4 @@
 |[beans](beans/)|Java Beans|
 |[collections](collections/)|Java Collections Framework|
 |[multithreading](multithreading/)|Multitasking and Multithreading|
-|[networking](networking/)|Networking|
+|[networking](networking/)|Networking in Java|
