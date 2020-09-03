@@ -2,6 +2,7 @@
 
 import java.rmi.*;  // RemoteException class, Remote interface, Naming class
 import java.rmi.server.*;   //UnicastRemoteObject class
+import java.rmi.registry.*;
 
 public class Prog1S extends UnicastRemoteObject implements Prog1I
 {
@@ -20,8 +21,9 @@ public class Prog1S extends UnicastRemoteObject implements Prog1I
     {
         try
         {
+            Registry reg = LocateRegistry.createRegistry(6000);
             Prog1S obj = new Prog1S();
-            Naming.rebind("refvar1", obj);
+            reg.rebind("refvar1", obj);
             System.out.println("Server object successfully bound to RMI Registry");
         }
         catch(Exception e)
