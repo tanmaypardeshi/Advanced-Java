@@ -1,7 +1,7 @@
 // Server program
 
 import java.rmi.*;  // RemoteException class, Remote interface, Naming class
-import java.rmi.sender.*;   //UnicastRemoteObject class
+import java.rmi.server.*;   //UnicastRemoteObject class
 
 public class Prog1S extends UnicastRemoteObject implements Prog1I
 {
@@ -12,7 +12,7 @@ public class Prog1S extends UnicastRemoteObject implements Prog1I
     public String getMsg() throws RemoteException
     {
         // not compulsory
-        System.out.println("Invocation of getMsg() on server successfull");
+        System.out.println("Invocation of getMsg() on server successful");
         return "Welcome to RMI programming";
     }
     // create an object of server class and make it available to client through RMI registry
