@@ -12,6 +12,7 @@ beans/*.class
 collections/*.class
 multithreading/*.class
 networking/*.class
+rmi/*.class
 Notes/
 
 

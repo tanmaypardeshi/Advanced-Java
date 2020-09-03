@@ -10,6 +10,7 @@
 * **Java Collections Framework**
 * **Multitasking and Multithreading**
 * **Networking in Java**
+* **Remote method invocation**
 
 <hr>
 
@@ -24,3 +25,4 @@
 |[collections](collections/)|Java Collections Framework|
 |[multithreading](multithreading/)|Multitasking and Multithreading|
 |[networking](networking/)|Networking in Java|
+|[rmi](rmi/)|RMI - Remote Method Invocation|
