@@ -9,7 +9,7 @@ public class Prog1C
         try
         {
             // obtain a reference to the server object on remote machine from RMI registry using interface
-            Prog1I obj = (Prog1I)Naming.lookup("rmi://localhost:6000/refvar1");
+            Prog1I obj = (Prog1I)Naming.lookup("rmi://localhost/refvar1");
             System.out.println("Message from server is " + obj.getMsg());
         }
         catch(Exception e)

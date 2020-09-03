@@ -19,7 +19,7 @@ public class Prog2S extends UnicastRemoteObject implements Prog2I
         {
             Prog2S obj = new Prog2S();
             Naming.rebind("refvar1", obj);
-            System.out.println("Server object successfully bount to RMI Registry");
+            System.out.println("Server object successfully bound to RMI Registry");
         }
         catch (Exception e)
         {
