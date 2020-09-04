@@ -1,3 +1,4 @@
+
 // Client class for GUI
 
 import java.rmi.*;
@@ -10,6 +11,7 @@ public class Prog2C extends Frame implements ActionListener
     String msg = "";
     Label l1,l2;
     TextField textno1,textno2;
+    Prog2I obj;
 
     public static void main(String[] args)
     {
@@ -40,14 +42,21 @@ public class Prog2C extends Frame implements ActionListener
 
         textno1.addActionListener(this);
         textno2.addActionListener(this);
-        setVisible(true);
+        setVisible(true);   
+
+        try
+        {
+	        obj  = (Prog2I)Naming.lookup("rmi://localhost:7000/refvar2");
+        }
+        catch(Exception e)
+        {
+	        System.out.println(e.getMessage());
+        }
     }
     public void actionPerformed(ActionEvent ae)
     {
         try
         {
-            Prog2I obj = (Prog2I)Naming.lookup("rmi://localhost/refvar1");
-
             int no1 = Integer.parseInt(textno1.getText());
             int no2 = Integer.parseInt(textno2.getText());
 
@@ -55,7 +64,7 @@ public class Prog2C extends Frame implements ActionListener
         }
         catch(Exception e)
         {
-            msg = "Error";
+            msg = e.getMessage();
         }
         repaint();
     }

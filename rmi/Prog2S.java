@@ -2,6 +2,7 @@
 
 import java.rmi.*;
 import java.rmi.server.*;
+import java.rmi.registry.*;
 
 public class Prog2S extends UnicastRemoteObject implements Prog2I
 {
@@ -17,8 +18,9 @@ public class Prog2S extends UnicastRemoteObject implements Prog2I
     {
         try
         {
+            Registry reg = LocateRegistry.createRegistry(7000);
             Prog2S obj = new Prog2S();
-            Naming.rebind("refvar1", obj);
+            reg.rebind("refvar2", obj);
             System.out.println("Server object successfully bound to RMI Registry");
         }
         catch (Exception e)
