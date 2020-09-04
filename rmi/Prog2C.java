@@ -4,7 +4,6 @@
 import java.rmi.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 
 public class Prog2C extends Frame implements ActionListener
 {
