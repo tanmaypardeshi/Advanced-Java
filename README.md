@@ -11,6 +11,7 @@
 * **Multitasking and Multithreading**
 * **Networking in Java**
 * **Remote method invocation**
+* **Extra Codes**
 
 <hr>
 
@@ -26,3 +27,4 @@
 |[multithreading](multithreading/)|Multitasking and Multithreading|
 |[networking](networking/)|Networking in Java|
 |[rmi](rmi/)|RMI - Remote Method Invocation|
+|[extra](extra/)|Extra Codes|
