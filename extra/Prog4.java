@@ -1,19 +1,23 @@
 // Example - 1 on Generics by defining our class
 
-class Gen<T> {
+class Gen<T>
+{
 	T obj;
 	// constructor
-	Gen (T obj) {
+	Gen (T obj)
+	{
 		this.obj = obj;
 	}
 
-	T getObj () {
+	T getObj ()
+	{
 		return obj;
 	}
 
 	// To check if the compiler uses typecasting or not when a generic class is compiled
 
-	void showType () {
+	void showType ()
+	{
 		// System.out.println("Type of object is: " + obj.getClass().getName());
 		// getName() returns fullname with package java.lang.String, etc.
 
@@ -21,8 +25,10 @@ class Gen<T> {
 	}
 }
 
-class Prog4 {
-	public static void main(String[] args) {
+class Prog4
+{
+	public static void main(String[] args)
+	{
 		// Error, generics don't work on pdts, but only references/objects
 		// Gen<int> obji = new Gen<int> ();
 
