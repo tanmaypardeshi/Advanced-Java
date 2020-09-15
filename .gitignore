@@ -13,6 +13,7 @@ collections/*.class
 multithreading/*.class
 networking/*.class
 rmi/*.class
+extra/*.class
 Notes/
 
 
