@@ -9,7 +9,7 @@ class Prog7
     {
         Hashtable <String, Double> ht = new Hashtable<String, Double>();
 
-        // The Hashtavle is created with some default capacity and a default fill ratio. When we add an element in the
+        // The Hashtable is created with some default capacity and a default fill ratio. When we add an element in the
         // Hashtable and number of vacant spaces are less than capacity * fillratio, then only the hash table capacity
         // increases. Ideal fill ratio is 0.75
 
