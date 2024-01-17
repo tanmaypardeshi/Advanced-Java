@@ -31,7 +31,7 @@ class Prog7
 
         // The Hashtable uses some internal algorithm(a function) to store and retireve the data and hence it doesnt
         // guarantee the order of elements during its display.
-        // Allow the Hashtable doesn't have its own method to iterate between all its elements. It re;ies on another
+        // Allow the Hashtable doesn't have its own method to iterate between all its elements. It relies on another
         // Collection interface called as Enumeration which holds the keys of Hashtable.
 
         // To disply all records
