@@ -14,7 +14,7 @@ public class Prog3
 		// here, elements do not move like a Vector or an ArrayList which takes a lot of processing time. Instead
 		// only links get adjusted
 
-		l.addLast("Pune");	//add() and addList() are same
+		l.addLast("Pune");	//add() and addLast() are same
 		//however, add() is overloaded
 
 		l.add(2, "Joshi");	//In LL, there are no inherent positions and every operation is managed using
